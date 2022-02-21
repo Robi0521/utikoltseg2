@@ -4,3 +4,7 @@ function szamitas()
     var uzema = document.getElementById("ar").value;
 
 }
+
+function ellenőrzés(){
+    
+}
