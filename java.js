@@ -16,4 +16,8 @@ function ellenőrzés(){
 	var nyolc = document.getElementById("8").value;
 	var kilenc = document.getElementById("9").value;
     var tiz = document.getElementById("10").value;
+
+    if(){
+        
+    }
 }
