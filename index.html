@@ -4,15 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="java.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div class="container my2">
         <h1>Útiköltség-elszámolás</h1>
-        <h2>Személyes adatok</h2>
-        <h2>Gépjármű- és üzemanyagadatok</h2>
-        <h2>A megtett út adatai</h2>
+
         
+        <h2>Személyes adatok</h2>
+        <p >Név <input type="text" style="float: right;"></p>
+        <p>Lakcím <input type="text" style="float: right;"></p>
+        <p>Születési dátum <input type="text"style="float: right;"></p>
+
+
+        <h2>Gépjármű- és üzemanyagadatok</h2>
+
+        <p>Gépjármű gyártmánya, típusa:  <input type="text"style="float: right;"></p>
+        <p>Üzemanyag fajtája: <input type="text"style="float: right;"></p>
+        <p>Fogyasztási norma: <input type="text"style="float: right;"></p>
+        <p>Utazás dátuma: <input type="text"style="float: right;"></p>
+        <p>Üzemanyag egységára: <input type="text"style="float: right;"></p>
+        <p>Forrás: <a href="https://nav.gov.hu/ugyfeliranytu/uzemanyag/">https://nav.gov.hu/ugyfeliranytu/uzemanyag/</a></p>
+
+
+        <h2>A megtett út adatai</h2>
+
+        <p>kiindulási hely: <input type="text"style="float: right;"></p>
+        <p>Úticél: <input type="text"style="float: right;"></p>
+        <p>További Úticél: <input type="text"style="float: right;"></p>
+        <p>Összes megtett távolság <br> Google maps alapján: <input type="text" style="float: right;"></p>
+        <button type="button">Ellenőrzés és számítás</button>
+        <hr>
+        <p>útiköltség</p>
+        <p>Amortizáció</p>
+        <p class="font-weight-bold">Összes elszámolható költség:</p>
+
+
     </div>
 </body>
 </html>
